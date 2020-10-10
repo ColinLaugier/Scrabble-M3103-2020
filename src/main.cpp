@@ -21,7 +21,7 @@ using namespace std;
 typedef std::vector<std::string> VStr_t;
 typedef map<char, unsigned short> MScrabble_t;
 
-unsigned short computeScore (const string& word, const MScrabble_t& scrabble)
+unsigned short computeScore(const string& word, const MScrabble_t& scrabble)
 {
     unsigned short Score(0);
     for (unsigned i(0); i < word.size(); ++i)
