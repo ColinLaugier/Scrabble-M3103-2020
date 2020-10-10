@@ -178,6 +178,9 @@ int main() {
         std::string input;
         std::getline(std::cin, input);
 
+        for (char& c: input)
+            c = tolower(c);
+
         std::list<std::string> combos = fctMagique(input, scrabble);
         auto iter = combos.begin();
         while (iter != combos.end())
