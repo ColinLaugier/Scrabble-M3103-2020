@@ -4,12 +4,9 @@
  * @brief main.cpp
  */
 
-#include <algorithm>
-#include <array>
-#include <cstdio>
-#include <cstdlib>
 #include <iomanip>
 #include <iostream>
+#include <list>
 #include <map>
 #include <string>
 #include <vector>

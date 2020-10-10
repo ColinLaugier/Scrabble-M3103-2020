@@ -7,9 +7,7 @@
 #ifndef DICO_H
 #define DICO_H
 
-#include <list>
 #include <string>
-#include <vector>
 #include <map>
 #include <unordered_set>
 
@@ -27,7 +25,6 @@ public:
     bool find(const std::string& word) const;
 
     bool parseFile(const std::string& file);
-
 };
 
 #endif // DICO_H
